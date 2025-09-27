@@ -43,22 +43,13 @@ Player X, enter column (0-2): 2
 - Structuring a small, clean C project
 
 ## Usage Example
-Compile the program:  
+Compile the program:
+```sh
 gcc tictactoe.c -o tictactoe
 
-Run the game:  
+#Run the game:  
 ./tictactoe
-
-Example Gameplay:
-Player X, enter row (0-2): 0  
-Player X, enter column (0-2): 1
-
-   0   1   2
-0    | X |  
-  ---+---+---
-1    |   |  
-  ---+---+---
-2    |   |  
+```
 
 ## Demo
 
