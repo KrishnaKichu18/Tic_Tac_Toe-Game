@@ -23,8 +23,10 @@ A console-based **Tic Tac Toe** game built from scratch in **C**. A fun project 
 ### Run the Game
 Compile the program:
 ```bash
+# Complile
 gcc tictactoe.c -o tictactoe
 
+#Run the Game
 ./tictactoe
 ```
 
