@@ -1,43 +1,67 @@
-# Tic_Tac_Toe-Game 🎮
+# Tic Tac Toe in C
 
-A console-based **Tic Tac Toe** game built from scratch in **C**. A fun project to sharpen logic-building and C programming skills!
+Play a classic Tic Tac Toe game on your console! This project is a simple yet fun way to practice C programming and logic-building skills.
 
-## Features ✅
-- Two-player mode: Player X vs Player O  
-- Win detection across **rows, columns & diagonals**  
-- Automatically declares **winner or draw**  
-- Handles **invalid moves** smoothly
+## Game Highlights
+- Two-player mode: Player X vs Player O
+- Win detection: Rows, columns, and both diagonals
+- Automatically declares winner or draw
+- Handles invalid inputs gracefully
 
-## How to Play 🕹
-- The game is for **two players**.  
-- Players take turns entering the **row and column numbers** to place their symbol (**X** or **O**).  
-- The board **updates after each move**.  
-- The game ends when a **player wins** or when all cells are filled (**draw**).  
+## Getting Started
+Follow these steps to run the game:
 
-### Keyboard Controls
-- Enter **row number (1-3)**  
-- Enter **column number (1-3)**
-
-## Usage 🎮
-
-### Run the Game
-Compile the program:
-```bash
-# Complile
+### Compile the Code
 gcc tictactoe.c -o tictactoe
 
-#Run the Game
+### Launch the Game
 ./tictactoe
-```
 
-## Tech Used 🛠
-- **C Language**  
-- **2D arrays** for board design  
-- **Loops & conditionals** for gameplay flow  
+## How to Play
+- The game is for two players.
+- Players take turns entering the row and column numbers to place their symbol (X or O).
+- The board updates and prints after each move.
+- The game ends when a player wins or all cells are filled (draw).
 
-## What You’ll Learn 💡
-- Managing a **2D array** as a game board  
-- Building **win/draw logic** from scratch  
-- Input validation & handling **edge cases**  
-- Organizing a small project cleanly
+### Controls
+- Enter row number (0-2)
+- Enter column number (0-2)
 
+Example move:
+Player X, enter row (0-2): 1  
+Player X, enter column (0-2): 2
+
+## Technical Details
+- Written in C Language
+- Uses 2D arrays to represent the board
+- Loops and conditionals handle gameplay flow and win/draw logic
+
+## Skills You’ll Learn
+- Managing a 2D array as a dynamic game board
+- Implementing win/draw logic from scratch
+- Handling user input validation and edge cases
+- Structuring a small, clean C project
+
+## Usage Example
+Compile the program:  
+gcc tictactoe.c -o tictactoe
+
+Run the game:  
+./tictactoe
+
+Example Gameplay:
+Player X, enter row (0-2): 0  
+Player X, enter column (0-2): 1
+
+   0   1   2
+0    | X |  
+  ---+---+---
+1    |   |  
+  ---+---+---
+2    |   |  
+
+## Demo
+
+![Gameplay](assets/demo.gif)
+
+---
