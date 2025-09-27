@@ -18,6 +18,16 @@ A console-based **Tic Tac Toe** game built from scratch in **C**. A fun project 
 - Enter **row number (1-3)**  
 - Enter **column number (1-3)**
 
+## Usage 🎮
+
+### Run the Game
+Compile the program:
+```bash
+gcc tictactoe.c -o tictactoe
+
+./tictactoe
+```
+
 ## Tech Used 🛠
 - **C Language**  
 - **2D arrays** for board design  
